@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Environmet</title>
+  </head>
+  <body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <div class="container pt-5">
+      <h2>ENVIRONMENT FILE GENERATOR</h2>
+      <br>
+      <form>
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 col-form-label">Host IP</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputIP" placeholder="ip" value="1192.168.1.1">
+          </div>
+        </div>
+        <div class="form-group row">
+          <div class="col-sm-2">Use default ports</div>
+          <div class="col-sm-10">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck1">
+              <label class="form-check-label" for="gridCheck1">
+              </label>
+            </div>
+          </div>
+          <div class="col-sm-2">Use same IP</div>
+          <div class="col-sm-10">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck1">
+              <label class="form-check-label" for="gridCheck1">
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 col-form-label">Rule Server</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputRuleIP" placeholder="Rule Server" value="192.168.1.1">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 col-form-label">Engine Server</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputRuleIP" placeholder="Engine Server" value="192.168.1.1">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 col-form-label">Integration Server</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputRuleIP" placeholder="Integration Server" value="192.168.1.1">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 col-form-label">Web Server</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputRuleIP" placeholder="Web Server" value="192.168.1.1">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 col-form-label">Mobile Server</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputRuleIP" placeholder="Mobile Server" value="192.168.1.1">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 col-form-label">Messaging Server</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputRuleIP" placeholder="Messaging Server" value="192.168.1.1">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 col-form-label">Fillment Server</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputRuleIP" placeholder="Fillment Server" value="192.168.1.1">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 col-form-label">Mongo Server</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputRuleIP" placeholder="Mongo Server" value="192.168.1.1">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 col-form-label">Rabbit Server</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputRuleIP" placeholder="Rabbit Server" value="192.168.1.1">
+          </div>
+        </div>
+        <div class="form-group row">
+          <div class="col-sm-10">
+            <button type="button" class="btn btn-primary">Load file</button>
+            <button type="button" class="btn btn-primary" onclick="document.location.href='env.html';">Create</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
+
